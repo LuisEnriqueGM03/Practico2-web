@@ -1,0 +1,136 @@
+Body{
+    background-color: #0b122b;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.fold-big{
+    background: #21273e;
+    border :2px solid #383d51;
+}
+.fold{
+    background: #21273e;
+    border :2px solid #383d51;
+}
+.fold:hover{
+   box-shadow: #007aff 0px 0px 40px;
+    transition: 0.5s;
+}
+h2,h3,h4,h5,i,p{
+    color: white;
+}
+.title{
+    font-size: 40px;
+    color: white;
+}
+.title-2{
+    font-size: 30px;
+    color: white;
+}
+
+.title-3{
+    font-size: 20px;
+    color: white;
+}
+.title-4{
+    font-size: 25px;
+    color: white;
+}
+.nombre{
+    font-size: 22px;
+    color: white;
+}
+.perfil-card{
+    height:100%;
+    width: 250px;
+}
+.perfil{
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+
+}
+.peli-card{
+    height: 100%;
+    width: 250px;
+}
+.pelicula{
+    height: 320px;
+    width: 250px;
+    padding: 10px;
+}
+.pelicula-perfil{
+    height: 280px;
+    width: 220px;
+    padding: 10px;
+}
+
+.busqueda {
+    border: 2px solid #007aff;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #21273e;
+    color: white;
+    width: 100%;
+    max-width: 650px;
+}
+
+.busqueda::placeholder {
+    color: white;
+}
+
+.busqueda:focus {
+    outline: none;
+    border-color: #0056b3;
+    color:white;
+    background-color: #2a2f48;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+.cartelera{
+    margin-left: 10px;
+}
+.reparto{
+    width: 190px;
+    height: 200px;
+}
+.reparto-card{
+    height:100%;
+}
+.director{
+    width: 350px;
+    height: 350px;
+}
+.dark-color{
+    background: #0b122b;
+    color: white;
+}
+
+.custom-navbar {
+    background-color: #0b122b;
+    box-shadow: 0 8px 4px -4px black;
+}
+
+.custom-navbar a {
+    color: #ffffff;
+
+}
+
+.custom-navbar a:hover {
+    color: #007aff;
+}
+.custom-navbar .dropdown-menu {
+    background-color: #0b122b;
+    border-color: #0b122b;
+}
+
+.custom-navbar .dropdown-item {
+    color: #ffffff;
+}
+.custom-navbar .dropdown-item:hover {
+    background-color: #0b122b;
+    color: #ffffff;
+}
+
